@@ -1,0 +1,109 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.header-main {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.header-nav{
+  margin-left: 5%;
+}
+.nav-class {
+  flex-direction: row;
+  height: 100px;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: x-large;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1f222b;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  position: relative;
+  overflow: hid
+}
+main{
+  height: 700px;
+  width: 100%;
+  background-image: url(https://www.ccab.org/wp-content/uploads/2024/03/240215-CCBMA-Easter-Homepage-Banner-Desktop-v4-1536x568.jpg);
+  background-size: cover;
+  display: inline-block;
+}
+#my-logo{
+  flex-direction: row;
+  align-items: center;
+}
+
+#search{
+  background-color: aliceblue;
+  border: 2px solid #8b8a89;
+  height: 61px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #111b47;
+  line-height: 16px;
+  border-radius: 60px;
+  padding: 8px 30px 8px 30px;
+  margin: 10px;
+  justify-content: flex-end;
+}
+.donate-btn{
+  width: 190px;
+  height: 61px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: #ffffff;
+  line-height: 61px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #b8084a;
+  border-radius: 360px;
+  z-index: 1;
+  cursor: pointer;
+}
+.btn-white{
+  min-width: 220px;
+  font-size: 19px;
+  line-height: 23px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  display: inline-block;
+  color: #b8084a;
+  background: #ffffff;
+  margin: 0 11px 20px 11px;
+  vertical-align: middle;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: normal;
+  border-radius: 360px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all .25s ease-out;
+  box-sizing: border-box;
+}
+ul li:hover{
+  color: #b8084a;
+  cursor: pointer;
+}
+.invisible-box{
+  width: 25%;
+  height: 10px;
+}
